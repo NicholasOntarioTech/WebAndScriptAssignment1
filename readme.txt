@@ -1,0 +1,3 @@
+- what dimensions did you use for each view port and why (fluid design)
+- Where did you use linear AND angle gradient
+- which color scheme did you use and why

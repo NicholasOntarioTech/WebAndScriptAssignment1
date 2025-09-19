@@ -1,0 +1,46 @@
+/*COLOUR PALETTE IS TEMPORARY*/
+
+body {
+    background-color: black;
+    /*font-family: Verdana, Geneva, Arial, sans-serif;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    width: 66%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: silver;
+
+}
+
+header, footer{
+    background-color: slategrey;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height:150px
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    margin-left: 15px;
+}
+
+.button{
+font-size:large;
+text-decoration:none;
+background-color:LightBlue;
+display:block;
+width:15%;float:left;
+text-align: center;
+padding:2px;
+margin:5px;
+border-radius:15px;
+box-shadow:5px 5px 3px gray;
+}
+
+.button:hover{
+box-shadow:5px 5px 3px black;
+}

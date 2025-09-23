@@ -1,7 +1,13 @@
-/*COLOUR PALETTE IS TEMPORARY*/
+/*
+#395144 (darkest green)
+#4E6C50 (green)
+#A88956 (brown)
+#EEE9CC (white)
+#393939 (black)
+*/
 
 body {
-    background-color: black;
+    background-color: #393939;
     /*font-family: Verdana, Geneva, Arial, sans-serif;*/
     padding: 0px;
     margin: 0px;
@@ -12,16 +18,24 @@ body {
     height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: silver;
+    background-color: #EEE9CC;
 
 }
 
-header, footer{
-    background-color: slategrey;
-    color: white;
+header{
+    background-color: #395144;
+    color: #EEE9CC;
     padding-top: 5px;
     padding-bottom: 5px;
     height:150px
+}
+
+footer{
+    background-color: #395144;
+    color: #EEE9CC;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    height:150px 
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
@@ -31,16 +45,21 @@ h1, h2, h3, h4, h5, h6, p, li {
 .button{
 font-size:large;
 text-decoration:none;
-background-color:LightBlue;
+background-color:#A88956;
 display:block;
 width:15%;float:left;
 text-align: center;
 padding:2px;
 margin:5px;
 border-radius:15px;
-box-shadow:5px 5px 3px gray;
+color:#EEE9CC;
 }
 
 .button:hover{
 box-shadow:5px 5px 3px black;
+}
+
+#MePhoto{
+float: right;
+margin:2%
 }

@@ -14,11 +14,11 @@ body {
 }
 
 #wrapper{
-    width: 66%;
-    height: 800px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     background-color: #EEE9CC;
+    min-height: 100dvh;
 
 }
 
@@ -27,15 +27,18 @@ header{
     color: #EEE9CC;
     padding-top: 5px;
     padding-bottom: 5px;
-    height:150px
+    height:155px
 }
 
 footer{
     background-color: #395144;
     color: #EEE9CC;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    height:150px 
+    padding-top: 5px;
+    height:80px;
+    bottom:0;
+    position:fixed;
+    width:70%
+
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
@@ -59,7 +62,12 @@ color:#EEE9CC;
 box-shadow:5px 5px 3px black;
 }
 
-#MePhoto{
-float: right;
-margin:2%
+section{
+    color:#393939
+}
+
+.sectionB{
+    color:#393939;
+    text-align: right;
+    margin-right: 15px;
 }

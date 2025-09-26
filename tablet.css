@@ -1,10 +1,122 @@
-body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+/*
+#395144 (darkest green)
+#4E6C50 (green)
+#8B7147 (brown)
+#EEE9CC (white)
+#393939 (black)
+*/
 
+body {
+    background-color: #393939;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    padding: 0px;
+    margin: 0px;
+    width:100%;
+}
 
 #wrapper{
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEE9CC;
     min-height: 100dvh;
 
+}
+
+header{
+    background-color: #395144;
+    color: #EEE9CC;
+    padding-top: 5px;
+    height:166px;
+    text-align: center;
+}
+
+footer{
+    background-color: #395144;
+    color: #EEE9CC;
+    padding-top: 5px;
+    bottom:0;
+    text-align: center;
+
+}
+
+h1, h2, h3, h5, h6, p, li {
+    margin-left: 15px;
+}
+h4{
+    margin-left: 15px;
+    margin-top:2px;
+}
+
+.button{
+font-size:large;
+text-decoration:none;
+background-color:#8B7147;
+display:inline-block;
+width:28vw;
+text-align:center;
+padding:2px;
+margin:2px;
+border-radius:15px;
+color:#EEE9CC;
+}
+
+.button:hover{
+box-shadow:5px 5px 3px black;
+background: radial-gradient(ellipse at center, #8B7147 51%,#262113 100%);
+}
+
+section{
+    color:#393939;
+    text-align: center;
+}
+
+.sectionB{
+    color:#393939;
+    text-align: center;
+    margin-right: 5%;
+}
+
+textarea{
+    width:80%;
+}
+
+select{
+    width:80%;
+    padding:2%;
+}
+
+input{
+    width:90%;
+    padding: 1%;
+}
+
+input[type="checkbox"]{
+    width:5%;
+    padding: 1%;
+}
+
+input[type="reset"]{
+    font-size: large;
+    padding:1%;
+    margin:5%;
+}
+input[type="submit"]{
+    font-size: large;
+    padding:1%;
+    margin:5%;
+}
+
+aside{
+    display:inline-block;
+    text-align:center;
+    margin: 12.5%;
+    margin-bottom:5%;
+    margin-top:2%;
+    padding: 5px;
+    width: 75%;
+}
+img{
+    width:100%;
 }

@@ -1,7 +1,7 @@
 /*
 #395144 (darkest green)
 #4E6C50 (green)
-#A88956 (brown)
+#8B7147 (brown)
 #EEE9CC (white)
 #393939 (black)
 */
@@ -37,7 +37,9 @@ footer{
     height:80px;
     bottom:0;
     position:fixed;
-    width:70%
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
 
 }
 
@@ -48,9 +50,10 @@ h1, h2, h3, h4, h5, h6, p, li {
 .button{
 font-size:large;
 text-decoration:none;
-background-color:#A88956;
+background-color:#8B7147;
 display:block;
-width:15%;float:left;
+width:15%;
+float:left;
 text-align: center;
 padding:2px;
 margin:5px;
@@ -60,7 +63,7 @@ color:#EEE9CC;
 
 .button:hover{
 box-shadow:5px 5px 3px black;
-background: radial-gradient(ellipse at center, #a88956 51%,#262113 100%);
+background: radial-gradient(ellipse at center, #8B7147 51%,#262113 100%);
 }
 
 section{
@@ -71,4 +74,15 @@ section{
     color:#393939;
     text-align: right;
     margin-right: 15px;
+}
+
+aside{
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    width: 50%;
+}
+img{
+    width:95%;
+
 }

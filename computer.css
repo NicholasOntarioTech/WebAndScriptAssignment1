@@ -80,9 +80,17 @@ aside{
     float: right;
     margin: 5px;
     padding: 5px;
-    width: 50%;
+    width: 35%;
 }
 img{
-    width:95%;
+    width:80%;
 
+}
+
+video {
+    width: 85%;
+    padding: 2%;
+    margin: 5%;
+    background-color: #8B7147;
+    
 }

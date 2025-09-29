@@ -1,6 +1,6 @@
 /*
 #395144 (darkest green)
-#4E6C50 (green)
+#587a5a (green)
 #8B7147 (brown)
 #EEE9CC (white)
 #393939 (black)
@@ -24,6 +24,10 @@ body {
 
 header{
     background-color: #395144;
+    background: -moz-linear-gradient(top, #395144  10%, #587a5a 100%); 
+    background: -webkit-linear-gradient(top, #395144  10%, #587a5a 100%); 
+    background: -o-linear-gradient(top, #395144  10%, #587a5a 100%); 
+    background: linear-gradient(to bottom #395144  10%,#587a5a 100%);
     color: #EEE9CC;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -32,6 +36,10 @@ header{
 
 footer{
     background-color: #395144;
+    background: -moz-linear-gradient(bottom, #395144  10%, #587a5a 100%); 
+    background: -webkit-linear-gradient(bottom, #395144  10%, #587a5a 100%); 
+    background: -o-linear-gradient(bottom, #395144  10%, #587a5a 100%); 
+    background: linear-gradient(to top #395144  10%,#587a5a 100%);
     color: #EEE9CC;
     padding-top: 5px;
     height:80px;
@@ -45,6 +53,7 @@ footer{
 
 h1, h2, h3, h4, h5, h6, p, li {
     margin-left: 15px;
+    margin-right:15px;
 }
 
 .button{
@@ -81,6 +90,7 @@ aside{
     margin: 5px;
     padding: 5px;
     width: 35%;
+    color: #393939;
 }
 img{
     width:80%;
@@ -91,6 +101,35 @@ video {
     width: 85%;
     padding: 2%;
     margin: 5%;
-    background-color: #8B7147;
+    /*background-color: #8B7147; */
+    background: -moz-linear-gradient(45deg, #8B7147  0%, #4E6C50 100%); 
+    background: -webkit-linear-gradient(45deg, #8B7147  0%, #4E6C50 100%); 
+    background: -o-linear-gradient(45deg, #8B7147  0%, #4E6C50 100%); 
+    background: linear-gradient(45deg #8B7147  0%,#4E6C50 100%);
+}
+
+#welcome{
+    margin-left: 15px;
+    margin-right:15px;
+    font-size:500%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#photo{
+    text-align: center; 
+    margin-left: 15%; 
+    margin-right: 15%; 
     
+}
+
+#h3b{
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 5%;
+    margin-left: 15px;
+    margin-right:15px;
+    font-weight: bold;
 }

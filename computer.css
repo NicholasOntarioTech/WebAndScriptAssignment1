@@ -6,57 +6,62 @@
 #393939 (black)
 */
 
-body {
+body { /*This is the bars you see outside the wrapper on desktop mode.*/
     background-color: #393939;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0px;
     margin: 0px;
 }
 
-#wrapper{
-    width: 70%;
+article{
+    color: #393939;
+    text-align: center;
+}
+
+#wrapper{ /*This is the actual body of the website, where all the information and graphics are shared*/
+    width: 70%; /*For all the inclass examples, the wrapper never expanded across the whole page (at least in desktop mode). So, I did the same thing. It doesn't really serve a purpose here, I guess in a real world senario you would put ads on the side bars*/
     margin-left: auto;
     margin-right: auto;
     background-color: #EEE9CC;
-    min-height: 100dvh;
+    min-height: 100dvh; /*Dynamic Viewport Height, means that the wrapper is always as long as the device's screen*/
 
 }
 
 header{
     background-color: #395144;
-    background: -moz-linear-gradient(top, #395144  10%, #587a5a 100%); 
+    background: -moz-linear-gradient(top, #395144  10%, #587a5a 100%); /*Different types of gradients for different browsers. This throws a warning when using the CSS checker, but this is how we were told to do it in class*/
     background: -webkit-linear-gradient(top, #395144  10%, #587a5a 100%); 
     background: -o-linear-gradient(top, #395144  10%, #587a5a 100%); 
-    background: linear-gradient(to bottom #395144  10%,#587a5a 100%);
+    background: linear-gradient(to bottom, #395144  10%,#587a5a 100%);
     color: #EEE9CC;
     padding-top: 5px;
     padding-bottom: 5px;
-    height:155px
+    height:115px
 }
 
 footer{
-    background-color: #395144;
-    background: -moz-linear-gradient(bottom, #395144  10%, #587a5a 100%); 
+    background-color: #395144; 
+    background: -moz-linear-gradient(bottom, #395144  10%, #587a5a 100%); /*Different types of gradients for different browsers. This throws a warning when using the CSS checker, but this is how we were told to do it in class*/
     background: -webkit-linear-gradient(bottom, #395144  10%, #587a5a 100%); 
     background: -o-linear-gradient(bottom, #395144  10%, #587a5a 100%); 
-    background: linear-gradient(to top #395144  10%,#587a5a 100%);
+    background: linear-gradient(to top, #395144  10%,#587a5a 100%);
     color: #EEE9CC;
     padding-top: 5px;
     height:80px;
     bottom:0;
-    position:fixed;
-    width:70%;
+    position:fixed; /*This makes it so that the footer is always at the bottom of the screen, meaning you can always access the other pages without scrolling up or down. Also looks cool in my opinion*/
+    width:70%; /*Same width as wrapper*/
     margin-left:15%;
     margin-right:15%;
 
 }
 
-h1, h2, h3, h4, h5, h6, p, li {
+h1, h2, h3, h4, h5, h6, p, li { /*For all the header formats, set the margin so text doesn't look bad (too close to edge otherwise)*/
     margin-left: 15px;
     margin-right:15px;
 }
 
-.button{
+.button{ /*Rounded buttons for links to the other pages. Looks way better than raw links*/
 font-size:large;
 text-decoration:none;
 background-color:#8B7147;
@@ -70,16 +75,16 @@ border-radius:15px;
 color:#EEE9CC;
 }
 
-.button:hover{
+.button:hover{ /*When hovering over a link, a radial gradient is applied to show which button you are about to click. Adds clarity and looks nice*/
 box-shadow:5px 5px 3px black;
 background: radial-gradient(ellipse at center, #8B7147 51%,#262113 100%);
 }
 
-section{
+section{ /*Makes the text color in the section tags match the color scheme*/
     color:#393939
 }
 
-.sectionB{
+.sectionB{ /*alternative to section tag, where text the right aligned. Breaks up long, plain boxes of text in use.*/
     color:#393939;
     text-align: right;
     margin-right: 15px;
@@ -101,19 +106,19 @@ video {
     width: 85%;
     padding: 2%;
     margin: 5%;
-    /*background-color: #8B7147; */
-    background: -moz-linear-gradient(45deg, #8B7147  0%, #4E6C50 100%); 
+    background: -moz-linear-gradient(45deg, #8B7147  0%, #4E6C50 100%);  /*Apply an angular linear gradient, as per requirements*/
     background: -webkit-linear-gradient(45deg, #8B7147  0%, #4E6C50 100%); 
     background: -o-linear-gradient(45deg, #8B7147  0%, #4E6C50 100%); 
-    background: linear-gradient(45deg #8B7147  0%,#4E6C50 100%);
+    background: linear-gradient(45deg, #8B7147  0%,#4E6C50 100%);
 }
 
-#welcome{
+#welcome{ /*Had to make a different ID for the welcome banner at the start of the website so that the text would be center aligned. Wouldn't need to do this if the <center> tag wasn't outdated :(*/
     margin-left: 15px;
     margin-right:15px;
     font-size:500%;
     text-align: center;
     padding-top: 15px;
+    color:#393939;
 }
 
 #photo{
@@ -123,7 +128,7 @@ video {
     
 }
 
-#h3b{
+#h3b{ /*Same reason as welcome ID. Needed center aligned text*/
     text-align: center;
     display: block;
     font-size: 1.17em;

@@ -13,7 +13,6 @@
     <div id="wrapper">
         <header>
             <h1>Nicholas's Portfolio</h1>
-            <h4>~About Me~</h4>
             <nav> <!--Establish a navigation bar at the top of the website-->
                 <a class="button" href="index.html">Home</a>
                 <a class="button" href="projects.html">Projects</a>
@@ -22,21 +21,19 @@
             
         </header>
         
-        <article>
-            <aside><img src="Nicholas.jpg"><br>Pictured: Fool<br></aside>
-            <section><h4>But who IS Nicholas Skoric?</h4></section>
-            <section><p>Hello! My name is Nicholas Skoric. I'm a second year student at Ontario Tech University in the Networking and IT Security program. I'm a hard working, attentive, detail oriented student, who always attempts his best at any challenge or assignment given. In my short time at Ontario Tech, I've completed numerous projects with the utmost care and effort, such as SHOOP and the Gru Analysis. If you want to hear more about those, check out my projects page! 
-                        <br><br>My real passion, however, isn't in the technology realm, but instead in history and music. In my free time, I enjoy researching local history, be that through online digital archives or physical books. I also love music, specifically authentic Canadian folk music, like that of Stan Rogers, James Gordon, or Stompin' Tom. I tend to wind down from university by playing along to such artists on my guitar or banjo.
-                        <br><br>After graduating I hope to land a stable, well paying job for Ontario Power Generation, perhaps as a networking technician or systems analyst. But it's a long road until then. In the meantime, I'll continue to plug away towards my degree, working hard yet still taking the time to sharpen the axe. If you would like to get in touch with me, head on over to the Contact Me page, and I'll respond as quickly as I can. Thanks!   
-                    </p> </section>  
-            <section>
-                <video id="video" width="65%" controls poster="Thumbnail.jpg" preload="auto">
-                    <source src="WebAndScriptVideo1.mp4" , type="video/mp4">
-                    <source src="WebAndScriptVideo1.ogv" , type="video/ogv">
-                    The video cannot play in this browser
+        <article> <h3>About Me</h3><!--Main body of information on this page is presented through the semantic article tag-->
+            <aside><img src="Nicholas.jpg" alt = "Nicholas Skoric"><br>Pictured: Nicholas Skoric<br></aside>
+            <section><h4>But who IS Nicholas Skoric?</h4></section> <!--Requirement: breif about me text thing. boom, here it is.-->
+            <p>Hello! My name is Nicholas Skoric. I'm a second year student at Ontario Tech University in the Networking and IT Security program. I'm a hard working, attentive, detail oriented student, who always attempts his best at any challenge or assignment given. In my short time at Ontario Tech, I've completed numerous projects with the utmost care and effort, such as SHOOP and the Gru Analysis. If you want to hear more about those, check out my projects page! 
+                <br><br>My real passion, however, isn't in the technology realm, but instead in history and music. In my free time, I enjoy researching local history, be that through online digital archives or physical books. I also love music, specifically authentic Canadian folk music, like that of Stan Rogers, James Gordon, or Stompin' Tom. I tend to wind down from university by playing along to such artists on my guitar or banjo.
+                <br><br>After graduating I hope to land a stable, well paying job for Ontario Power Generation, perhaps as a networking technician or systems analyst. But it's a long road until then. In the meantime, I'll continue to plug away towards my degree, working hard yet still taking the time to sharpen the axe. If you would like to get in touch with me, head on over to the Contact Me page, and I'll respond as quickly as I can. Thanks!   
+            </p>  
+                <video id="video" controls poster="Thumbnail.jpg"> <!--Another requirement, short introductory video. Featuring a thumbnail / cover image, as well as video controls-->
+                    <source src="WebAndScriptVideo1.mp4" type="video/mp4"> <!--I have the video in both MP4 and OGV, so that it will hopeully run on different kinds of browsers-->
+                    <source src="WebAndScriptVideo1.ogv" type="video/ogv">
+                    The video cannot play in this browser <!--Text display if the video can't load-->
                 </video>
                 <br><br><br><br><br>
-            </section>
         </article>
     
 
@@ -47,7 +44,7 @@
                 <a class="button" href="projects.html">Projects</a>
                 <a class="button" href="contact.html">Contact Me</a>
             </nav>
-            <h4><br>Copyright @ Nicholas Skoric, nicholas.<wbr>skoric@<wbr>ontariotech<wbr>u.net, 2025</h4>
+            <h4><br>Copyright @ Nicholas Skoric, nicholas.<wbr>skoric@<wbr>ontariotech<wbr>u.net, 2025</h4> <!--wbr tag breaks up the address if the screen cannot fit it, eg. on mobile devices-->
     </footer>
 </body>
 </html>

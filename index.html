@@ -13,7 +13,6 @@
     <div id="wrapper">
         <header>
             <h1>Nicholas's Portfolio</h1>
-            <h4>~Home~</h4>
             <nav> <!--Establish a navigation bar at the top of the website-->
                 <a class="button" href="aboutme.html">About Me</a>
                 <a class="button" href="projects.html">Projects</a>
@@ -22,15 +21,16 @@
             
         </header>
         
-        <article>
-            <section><div id="welcome"><b>Welcome To My Website</b></div></section>
-            <ul>
+        <article> <h3>Home</h3><!--Main body of information on this page is presented through the semantic article tag-->
+            <div id="welcome"><b>Welcome To My Website</b></div>
+            <ul> <!--Didn't really know what to put on this page, so I just have a welcome sign, an image, and a rundown of what's on the other pages-->
                 <li><p>If you want to learn about who I am, check out the "About Me" page.</p></li>
                 <li><p>If you want to learn about some of the projects I have worked on, check out the "Projects" page.</p></li>
                 <li><p>If you have any questions or comments for me, send them over via the "Contact Me" page. </p></li>
             </ul>
-            <section><div id="photo"><img src="WelcomeImage.jpg"></div></section>
-            <section><div id="h3b">Thanks for stopping by</div></section>
+            <div id="photo"><img src="WelcomeImage.jpg" alt="Nicholas Skoric atop the old Palmer Barn, Pickering, Ontario"></div> <!--Insert the image, fall back to simple text if image cannot load-->
+            <div id="h3b">Thanks for stopping by</div>
+            <br><br><br>
         </article>
         
     </div>
@@ -40,7 +40,7 @@
                 <a class="button" href="projects.html">Projects</a>
                 <a class="button" href="contact.html">Contact Me</a>
             </nav>
-            <h4><br>Copyright @ Nicholas Skoric, nicholas.<wbr>skoric@<wbr>ontariotech<wbr>u.net, 2025</h4>
+            <h4><br>Copyright @ Nicholas Skoric, nicholas.<wbr>skoric@<wbr>ontariotech<wbr>u.net, 2025</h4> <!--wbr tag breaks up the address if the screen cannot fit it, eg. on mobile devices-->
     </footer>
 </body>
 </html>

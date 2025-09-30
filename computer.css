@@ -18,6 +18,7 @@ article{
     text-align: center;
 }
 
+
 #wrapper{ /*This is the actual body of the website, where all the information and graphics are shared*/
     width: 70%; /*For all the inclass examples, the wrapper never expanded across the whole page (at least in desktop mode). So, I did the same thing. It doesn't really serve a purpose here, I guess in a real world senario you would put ads on the side bars*/
     margin-left: auto;
@@ -81,7 +82,8 @@ background: radial-gradient(ellipse at center, #8B7147 51%,#262113 100%);
 }
 
 section{ /*Makes the text color in the section tags match the color scheme*/
-    color:#393939
+    color:#393939;
+    text-align: left;
 }
 
 .sectionB{ /*alternative to section tag, where text the right aligned. Breaks up long, plain boxes of text in use.*/
